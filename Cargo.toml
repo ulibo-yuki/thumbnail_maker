@@ -1,0 +1,10 @@
+[package]
+name = "thumbnail_maker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+svg = "0.18.*"
+resvg = "0.44.*"
+clap = {version = "4.5.*", features = ["derive"]}
+get_input = { git = "https://github.com/ulibo-yuki/get_input"}

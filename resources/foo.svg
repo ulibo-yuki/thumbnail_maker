@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1280 670" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="670" width="1680" x="0" y="0"/>
+<text fill="#333333" font-family="Hiragino Sans" font-size="64" font-weight="Bold" text-anchor="middle" x="640" y="125">
+
+テスト
+</text>
+<text fill="#333333" font-family="Hiragino Sans" font-size="144" font-weight="Bold" text-anchor="middle" x="640" y="370">
+
+Rustを分りたい
+</text>
+<text fill="#333333" font-family="Hiragino Sans" font-size="70" font-weight="Bold" text-anchor="middle" x="640" y="550">
+
+#18
+</text>
+</svg>

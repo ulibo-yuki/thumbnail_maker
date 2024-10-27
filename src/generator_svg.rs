@@ -4,14 +4,14 @@ pub fn svg_maker(number: &String, subtitle: &String) -> svg::Document {
     let sub_title_text = svg::node::Text::new(subtitle);
 
     let number_text = svg::node::element::Text::new("")
-    .set("x", "640")
-    .set("y", "125")
-    .set("text-anchor", "middle")
-    .set("fill", "#333333")
-    .set("font-family", "Hiragino Sans")
-    .set("font-weight", "Bold")
-    .set("font-size", "64")
-    .add(num_text);
+        .set("x", "640")
+        .set("y", "125")
+        .set("text-anchor", "middle")
+        .set("fill", "#333333")
+        .set("font-family", "Hiragino Sans")
+        .set("font-weight", "Bold")
+        .set("font-size", "64")
+        .add(num_text);
 
     let title_text = svg::node::element::Text::new("")
         .set("x", "640")

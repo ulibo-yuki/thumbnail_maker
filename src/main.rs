@@ -15,7 +15,7 @@ mod save_png;
 struct Args {
     /// ## uses
     /// ```
-    /// thumbnail_maker sub_title article_num save_folder
+    /// thumbnail_maker article_num sub_title save_folder
     /// ```
     number: Option<String>,
     sub_title: Option<String>,
